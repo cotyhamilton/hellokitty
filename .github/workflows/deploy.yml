@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "hello-kitty"
-          entrypoint: "jsr:@std/http/file-server@1.0.13"
+          entrypoint: "jsr:@std/http@1.0.13/file-server"
           root: "build"
           
           
